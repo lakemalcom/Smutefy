@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		6608705811A18F7500957BD5 /* smutefyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* smutefyAppDelegate.m */; };
+		660870D411A1A55D00957BD5 /* status_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 660870D111A1A55D00957BD5 /* status_active.png */; };
+		660870D511A1A55D00957BD5 /* status_click.png in Resources */ = {isa = PBXBuildFile; fileRef = 660870D211A1A55D00957BD5 /* status_click.png */; };
+		660870D611A1A55D00957BD5 /* status_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 660870D311A1A55D00957BD5 /* status_normal.png */; };
+		6648309C11B16C9D00E17614 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6648309B11B16C9D00E17614 /* Sparkle.framework */; };
+		664830BA11B16D4F00E17614 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6648309B11B16C9D00E17614 /* Sparkle.framework */; };
+		6648313811B1AE7400E17614 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 6648313711B1AE7400E17614 /* dsa_pub.pem */; };
+		665D7AB7121C42CE00C23ED3 /* MGPreferencePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 665D7AB6121C42CE00C23ED3 /* MGPreferencePanel.m */; };
+		665D7AE5121C4BBC00C23ED3 /* View1Icon.tif in Resources */ = {isa = PBXBuildFile; fileRef = 665D7AE1121C4BBC00C23ED3 /* View1Icon.tif */; };
+		665D7AE6121C4BBC00C23ED3 /* View2Icon.tif in Resources */ = {isa = PBXBuildFile; fileRef = 665D7AE2121C4BBC00C23ED3 /* View2Icon.tif */; };
+		66B71F4B11A06DDE002900A4 /* Smutefy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B71F4A11A06DDE002900A4 /* Smutefy.m */; };
+		66BA5B0B1227FD13001F7CE2 /* View3Icon.tif in Resources */ = {isa = PBXBuildFile; fileRef = 66BA5B0A1227FD13001F7CE2 /* View3Icon.tif */; };
+		66E6024D11A0C25A00F87BA8 /* smutefy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 66E6024C11A0C25A00F87BA8 /* smutefy.icns */; };
+		66E6026C11A0C63500F87BA8 /* SwitchAudioSource in Resources */ = {isa = PBXBuildFile; fileRef = 66E6026B11A0C63500F87BA8 /* SwitchAudioSource */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		664830B411B16CBD00E17614 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				664830BA11B16D4F00E17614 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* smutefyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smutefyAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* smutefyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = smutefyAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* smutefy_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smutefy_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		660870D111A1A55D00957BD5 /* status_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_active.png; sourceTree = "<group>"; };
+		660870D211A1A55D00957BD5 /* status_click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_click.png; sourceTree = "<group>"; };
+		660870D311A1A55D00957BD5 /* status_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_normal.png; sourceTree = "<group>"; };
+		6648309B11B16C9D00E17614 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		6648313711B1AE7400E17614 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		665D7AB5121C42CE00C23ED3 /* MGPreferencePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGPreferencePanel.h; sourceTree = "<group>"; };
+		665D7AB6121C42CE00C23ED3 /* MGPreferencePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGPreferencePanel.m; sourceTree = "<group>"; };
+		665D7AE1121C4BBC00C23ED3 /* View1Icon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = View1Icon.tif; sourceTree = "<group>"; };
+		665D7AE2121C4BBC00C23ED3 /* View2Icon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = View2Icon.tif; sourceTree = "<group>"; };
+		66B71F4911A06DDE002900A4 /* Smutefy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Smutefy.h; sourceTree = "<group>"; };
+		66B71F4A11A06DDE002900A4 /* Smutefy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Smutefy.m; sourceTree = "<group>"; };
+		66BA5B0A1227FD13001F7CE2 /* View3Icon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = View3Icon.tif; sourceTree = "<group>"; };
+		66E6024C11A0C25A00F87BA8 /* smutefy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = smutefy.icns; sourceTree = "<group>"; };
+		66E6026B11A0C63500F87BA8 /* SwitchAudioSource */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = SwitchAudioSource; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* smutefy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "smutefy-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* smutefy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smutefy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				6648309C11B16C9D00E17614 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* smutefyAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* smutefyAppDelegate.m */,
+				66B71F4911A06DDE002900A4 /* Smutefy.h */,
+				66B71F4A11A06DDE002900A4 /* Smutefy.m */,
+				665D7AB5121C42CE00C23ED3 /* MGPreferencePanel.h */,
+				665D7AB6121C42CE00C23ED3 /* MGPreferencePanel.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6648309B11B16C9D00E17614 /* Sparkle.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* smutefy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* smutefy */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = smutefy;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* smutefy_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				665D7AE1121C4BBC00C23ED3 /* View1Icon.tif */,
+				665D7AE2121C4BBC00C23ED3 /* View2Icon.tif */,
+				66BA5B0A1227FD13001F7CE2 /* View3Icon.tif */,
+				6648313711B1AE7400E17614 /* dsa_pub.pem */,
+				660870D111A1A55D00957BD5 /* status_active.png */,
+				660870D211A1A55D00957BD5 /* status_click.png */,
+				660870D311A1A55D00957BD5 /* status_normal.png */,
+				66E6026B11A0C63500F87BA8 /* SwitchAudioSource */,
+				66E6024C11A0C25A00F87BA8 /* smutefy.icns */,
+				8D1107310486CEB800E47090 /* smutefy-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* smutefy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "smutefy" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				664830B411B16CBD00E17614 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smutefy;
+			productInstallPath = "$(HOME)/Applications";
+			productName = smutefy;
+			productReference = 8D1107320486CEB800E47090 /* smutefy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "smutefy" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Spanish,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* smutefy */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* smutefy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				66E6024D11A0C25A00F87BA8 /* smutefy.icns in Resources */,
+				66E6026C11A0C63500F87BA8 /* SwitchAudioSource in Resources */,
+				660870D411A1A55D00957BD5 /* status_active.png in Resources */,
+				660870D511A1A55D00957BD5 /* status_click.png in Resources */,
+				660870D611A1A55D00957BD5 /* status_normal.png in Resources */,
+				6648313811B1AE7400E17614 /* dsa_pub.pem in Resources */,
+				665D7AE5121C4BBC00C23ED3 /* View1Icon.tif in Resources */,
+				665D7AE6121C4BBC00C23ED3 /* View2Icon.tif in Resources */,
+				66BA5B0B1227FD13001F7CE2 /* View3Icon.tif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				66B71F4B11A06DDE002900A4 /* Smutefy.m in Sources */,
+				6608705811A18F7500957BD5 /* smutefyAppDelegate.m in Sources */,
+				665D7AB7121C42CE00C23ED3 /* MGPreferencePanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = smutefy_Prefix.pch;
+				INFOPLIST_FILE = "smutefy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = smutefy;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = smutefy_Prefix.pch;
+				INFOPLIST_FILE = "smutefy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = smutefy;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "smutefy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "smutefy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
